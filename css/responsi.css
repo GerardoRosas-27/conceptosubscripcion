@@ -1,0 +1,47 @@
+@media (max-width: 468px){
+   #imagenLogo{
+    max-width: 140px;
+   }
+    header h1{
+        display: none;
+    }  
+}
+@media (min-width: 468px){
+   #imagenLogo{
+    max-width: 200px;
+}
+}
+@media (max-width: 767px){
+   .contenedorContenido{
+     margin-top: auto;
+}
+    .suscribe{
+        border-right: none;
+    }
+    .disfruta{
+        border-left: none;
+    }
+    .contacto{
+        padding-top: 10px;
+    }
+    .redes{
+        padding-top: 10px;
+    }
+}
+@media (min-width: 767px){
+ .contenTitulo {
+        border: none;
+       margin-top: 20px;
+    }
+    
+}
+@media (max-width: 575px){
+.contenHeader h2 .precio{
+    font-size: 50px;
+    padding: 5px;
+}
+    
+}
+
+
+   

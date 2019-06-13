@@ -1,0 +1,259 @@
+header {
+  position: relative;
+  background-image: url(../images/fondo-chica2.jpg);
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  
+}
+header::after {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(255, 177, 0, 0.37);
+  z-index:6;
+}
+header h1, h2{
+    position: relative;
+    z-index: 8;
+    color: aliceblue;
+    text-align: center;
+    top: 50%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#btnSuscribete{ 
+    position: relative;
+   padding: 9px 20px 11px 20px;
+    z-index: 8;
+    font-size: 25px;
+    transition: all .5s;
+    background: rgb(122, 222, 69);
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#btnSuscribete:hover{ 
+  
+    background: rgb(77, 219, 2);
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+   
+}
+.cont{
+    position: relative;
+    z-index: 7;
+    height: auto;
+    background: #fafafa;
+}
+.contenTitulo h2{
+    color: #656565;
+}
+.contenTitulo hr{
+    height: 3px;
+    background: #ffa72f;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.rralla{
+    width: 40%;
+}
+.subrrallar{
+    width: 100%;
+}
+.contenedorImagen{
+    margin-top: 50px;
+    margin-bottom: 7%;
+}
+.contenedorContenido{
+     margin-top: 10%;
+    margin-bottom: 7%;
+}
+.parallax {
+    height: auto;
+    background-image: url(../images/parrallax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.capaTransparente {
+    background: rgba(255, 177, 0, 0.32);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.parallaxTexto {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    color: aliceblue;
+}
+.parallaxTexto h3{
+    font-size: 30px;
+    text-align: center;
+}
+#comofunciona{
+    height: auto;
+}
+.contenComofunciona{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.suscribe{
+    padding-top: 19px;
+    padding-bottom: 50px;
+    border-right:2px solid #ffa72f;
+    
+}
+.suscribe h3,h4{
+    padding: 20px;
+    text-align: center;
+}
+.recibe{
+    padding-top: 19px;
+    padding-bottom: 50px;
+   
+}
+.recibe h3,h4{
+    padding: 20px;
+    text-align: center;
+}
+.disfruta{
+    padding-top: 19px;
+    padding-bottom: 50px;
+    border-left:2px solid #ffa72f;
+   
+}
+.disfruta h3,h4{
+    padding: 20px;
+    text-align: center;
+}
+
+.iconoCirculo{
+    transition: all 1s;
+    padding: 30PX;
+    color: #ffa72f;
+    font-size: 40px;   
+}
+.circulo{
+    border: 2px solid #ffa72f;
+    border-radius:50%;
+}
+.circuloHover{
+    background: #ffa72f;
+   border-radius:50%;
+    color: #fff;
+   box-shadow: 0px 15px 15px rgba(54, 54, 54, 0.55);
+}
+h4 hr{
+    height: auto;
+    width: 20%;
+    border-radius: 20px;
+     background: #ffa72f;
+}
+.parallax2 {
+   
+    height: auto;
+    background-image: url(../images/main01.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.capaTransparente2 {
+   background: rgba(255, 177, 0, 0.23);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#suscribete{
+    height: auto;
+    padding-bottom: 50px;
+    background: #efefef;
+    
+}
+.contSuscripcion{
+    margin-top: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.contSuscripcion h2{
+    text-align: center;
+    color: #333333;
+}
+.contenHeader{
+   
+    border-bottom: 4px solid rgb(75, 211, 0);
+    border-radius: 10px;
+    background: #ffa72f;
+}
+.contenHeader h3{
+    text-align: center;
+padding-top: 30px;
+ color: rgb(103, 67, 0);
+     
+}
+.contenHeader h2{
+ color: #ffffff;
+     
+}
+.contenHeader p{
+    text-align: center;
+ color: #ffffff;    
+}
+
+.contenHeader h2 .precio{
+    font-size: 70px;
+    padding: 10px;
+}
+.contenBody p{
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    padding-top: 30px;
+    height: auto;
+    background: #ffffff;
+}
+.contacto{
+      padding-top: 30px;
+}
+
+footer p a{
+    text-decoration: none;
+    text-align: center;
+    color: #5c5c5c;
+}
+.icon-facebook{
+    font-size: 40px;
+  color: #ffa72f;
+}
+.icon-mundo{
+     font-size: 40px;
+  color: #ffa72f;
+}
+.redes{
+    padding-top: 20px;
+    
+}
+.redes h4 a{
+    margin: 10px;
+    text-decoration: none;
+ 
+}
+h6{
+    padding: 20px;
+    text-align: center;
+}
